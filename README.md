@@ -8,11 +8,11 @@
 - Load http://localhost:3000 to test the endpoin 
 
 # Routes
-|    URL       |         Description                |             Needs                 |
-| ------------ | ---------------------------------- | --------------------------------- |
-| /api/login   | log into your account              | post method=>  email, password    |          
-| /api/admin   | to update specific user into admin | put method => id of specific user |
-| /api/user    | doing Crud Operations              | Choose the  method                |
+|      URL       |         Description                |             Needs                 |
+| -------------- | ---------------------------------- | --------------------------------- |
+| /api/login     | log into your account              | post method=>  email, password    |          
+| /api/admin/:id | to update specific user into admin | put method                        |
+| /api/user      | doing Crud Operations              | Choose the  method                |
 
 # Crud Operations
 | Method |      URL      |         Description          |     Authorization    |
