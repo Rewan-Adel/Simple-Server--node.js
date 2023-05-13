@@ -17,11 +17,11 @@
 # Crud Operations
 | Method |      URL      |         Description          |     Authorization    |
 | ------ | ------------- | ---------------------------- | -------------------- |
-| GET    | /api/user/    | Get all Users                |  Only Admin          |
-| GET    | /user/:id     | Get a specific  User         |  Only Admin          |
-| DELETE | /user/:id     | Delete an existing user      |  Only Admin          |
-| POST   | /user/        | Create a new user            |  Users               |
-| patch  | /user/:id     | update data existing user    |  Users               |
+| POST   | /             | Create a new user            |  Users               |
+| GET    | /             | Get all Users                |  Only Admin          |
+| GET    | /:id          | Get a specific  User         |  Only Admin          |
+| DELETE | /:id          | Delete an existing user      |  Only Admin          |
+| patch  | /:id          | update data existing user    |  Users               |
 
 # Note
 Create a new user needs:
