@@ -24,7 +24,11 @@
 | patch  | /user/:id     | update data existing user    |  Users               |
 
 # Note
-Create a new user needs 
+Create a new user needs:
 - name
 - email
 - password (as a string)
+
+Log in needs:
+- email
+- password
