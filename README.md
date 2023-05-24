@@ -17,10 +17,11 @@
 | Method |      URL      |         Description          |     Authorization    |
 | ------ | ------------- | ---------------------------- | -------------------- |
 | POST   |/api/user      | Create a new user            |  Users               |
+| patch  | /api/user/:id      | update data existing user    |  Users               |
 | GET    | /api/user     | Get all Users                |  Only Admin          |
 | GET    | /api/user/:id | Get specific  User         |  Only Admin          |
 | DELETE | /api/user/id  | Delete an existing user      |  Only Admin          |
-| patch  | /api/user/:id      | update data existing user    |  Users               |
+
 
 # Note
 Create a new user needs:
