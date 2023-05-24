@@ -20,7 +20,7 @@
 | Method |      URL       |         Description                |  
 | ------ | -------------- | ---------------------------------- | 
 | POST   | /api/login     | log into your account              |           
-| put    | /api/admin/:id | to update specific user into admin |
+| PUT    | /api/admin/:id | to update specific user into admin |
 
 
 # Note
