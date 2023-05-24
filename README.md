@@ -1,6 +1,6 @@
 # Simple-Server--node.js
 - A Simple Node.js/Express REST API implementation
-- Enable Admin to update users to be admin 
+
 
 # Usage
 - Run ( npm install ) to installl dependencies 
