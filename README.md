@@ -12,16 +12,15 @@
 | -------------- | ---------------------------------- | --------------------------------- |
 | /api/login     | log into your account              | post method=>  email, password    |          
 | /api/admin/:id | to update specific user into admin | put method                        |
-| /api/user      | doing Crud Operations              | Choose the  method                |
 
 # Crud Operations
 | Method |      URL      |         Description          |     Authorization    |
 | ------ | ------------- | ---------------------------- | -------------------- |
-| POST   | /             | Create a new user            |  Users               |
-| GET    | /             | Get all Users                |  Only Admin          |
-| GET    | /:id          | Get a specific  User         |  Only Admin          |
-| DELETE | /:id          | Delete an existing user      |  Only Admin          |
-| patch  | /:id          | update data existing user    |  Users               |
+| POST   |/api/user      | Create a new user            |  Users               |
+| GET    | /api/user     | Get all Users                |  Only Admin          |
+| GET    | /api/user/:id | Get specific  User         |  Only Admin          |
+| DELETE | /api/user/id  | Delete an existing user      |  Only Admin          |
+| patch  | /api/user/:id      | update data existing user    |  Users               |
 
 # Note
 Create a new user needs:
