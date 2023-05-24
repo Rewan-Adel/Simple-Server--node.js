@@ -32,3 +32,5 @@ Create a new user needs:
 Log in needs:
 - email
 - password
+
+# Don't put spaces between key
