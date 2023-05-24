@@ -17,10 +17,10 @@
 | DELETE | /api/user/id  | Delete an existing user      |  Only Admin          |
 
 # Routes
-|      URL       |         Description                |             Needs                 |
-| -------------- | ---------------------------------- | --------------------------------- |
-| /api/login     | log into your account              | post method=>  email, password    |          
-| /api/admin/:id | to update specific user into admin | put method                        |
+| Method |      URL       |         Description                |  
+| ------ | -------------- | ---------------------------------- | 
+| POST   | /api/login     | log into your account              |           
+| put    | /api/admin/:id | to update specific user into admin |
 
 
 # Note
