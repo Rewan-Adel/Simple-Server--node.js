@@ -10,6 +10,7 @@ route.put("/:id", auth, async(req, res)=>{
     "message": "user is Admin now",
     "name": user.name,
     "token":user.token,
+    "adminRole": user.isAdmin,
     "id": user.id,
    })}catch(err){ console.log(err)}
         // ,function(err, data){
