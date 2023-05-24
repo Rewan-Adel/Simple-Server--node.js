@@ -6,7 +6,7 @@
 - Run ( npm install ) to installl dependencies 
 - Run ( npm  start )  to start the local server
 - Load http://localhost:3000 to test the endpoin 
-- 
+ 
 # Crud Operations
 | Method |      URL      |         Description          |     Authorization    |
 | ------ | ------------- | ---------------------------- | -------------------- |
